@@ -1,6 +1,7 @@
 # Installation of Softwares
 
-## Anaconda Installation
+## Anaconda
+### Installation
 To install Anaconda on your computer, follow these steps:
 
 1. **Go to the Anaconda download page**: Visit the official Anaconda website at https://www.anaconda.com/products/individual and click on the "Download" button for the Python version you want to use.
@@ -23,7 +24,45 @@ Test the installation: Once the installation is complete, open a terminal or com
 
 Congratulations, you have now installed Anaconda on your computer! You can now start using it to work with Python, Jupyter Notebook, and other data science tools.
 
-## Pybullet Installation
+### How to use Anaconda
+Conda environments are a powerful feature of the Anaconda distribution that allow you to create isolated Python environments with specific versions of packages and dependencies. This makes it easy to switch between different projects or collaborate with others without worrying about version conflicts or dependencies.
+
+Here are the basic steps to create and use conda environments:
+
+1. **Create a new environment**: Open a terminal or Anaconda prompt and run the following command to create a new environment with a specific version of Python:
+```
+conda create --name myenv python=3.9
+```
+This will create a new environment called "myenv" with Python 3.9 installed. You can replace "myenv" with any name you like, and you can also specify a different version of Python if you prefer.
+
+2. **Activate the environment**: Once the environment is created, you can activate it by running the following command:
+```
+conda activate myenv
+```
+This will activate the "myenv" environment and any packages you install or run will use the Python version and packages installed in this environment.
+
+3. **Install packages**: You can now install packages or dependencies in the new environment using the "conda install" command. For example:
+```
+conda install numpy matplotlib pandas
+```
+This will install the NumPy, Matplotlib, and Pandas packages in the "myenv" environment.
+
+4. **Deactivate the environment**: When you're done working in the environment, you can deactivate it by running the following command:
+```
+conda deactivate
+```
+This will deactivate the "myenv" environment and return you to the base environment.
+
+5. **Remove the environment**: If you no longer need the environment, you can remove it using the following command:
+```
+conda remove --name myenv --all
+```
+This will remove the "myenv" environment and all the packages installed in it.
+
+These are the basic steps for creating and using conda environments. With conda environments, you can easily manage your Python projects and dependencies and ensure that your code works consistently across different systems.
+
+## Pybullet
+### Installation
 
 You can install PyBullet on your PC by following these steps:
 
