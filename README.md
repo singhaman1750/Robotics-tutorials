@@ -1,6 +1,29 @@
 # Installation of Softwares
 
-## Pybullet
+## Anaconda Installation
+To install Anaconda on your computer, follow these steps:
+
+1. **Go to the Anaconda download page**: Visit the official Anaconda website at https://www.anaconda.com/products/individual and click on the "Download" button for the Python version you want to use.
+
+2. **Choose the appropriate installer**: Select the installer for your operating system (Windows, macOS, or Linux) and the version of Python you want to use (Python 2.7 or 3.x).
+
+3. **Download the installer**: Once you have chosen the appropriate installer, click on the "Download" button to download the installer file.
+
+4. **Run the installer**: Once the installer has finished downloading, run the installer by double-clicking on the file. Follow the instructions provided by the installer.
+
+5. **Agree to the license terms**: During the installation process, you will be asked to agree to the Anaconda license terms. Read the license terms and click on the "I Agree" button if you agree.
+
+6. **Choose the installation location**: The installer will prompt you to choose the installation location. The default location is usually fine, but you can choose a different location if you prefer.
+
+7. **Choose whether to add Anaconda to your PATH environment variable**: The installer will also ask you whether you want to add Anaconda to your system's PATH environment variable. This is usually a good idea, as it makes it easier to use Anaconda from the command line.
+
+8. **Wait for the installation to finish**: Once you have made all the necessary choices, the installation will begin. Wait for the installation to finish.
+
+Test the installation: Once the installation is complete, open a terminal or command prompt and type "conda list". If everything is installed correctly, you should see a list of installed packages and their versions.
+
+Congratulations, you have now installed Anaconda on your computer! You can now start using it to work with Python, Jupyter Notebook, and other data science tools.
+
+## Pybullet Installation
 
 You can install PyBullet on your PC by following these steps:
 
