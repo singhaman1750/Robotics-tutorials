@@ -1,3 +1,8 @@
+# List of Softwares
+1. [Anaconda](#anaconda)
+2. [Pybullet](#pybullet)
+3. [Mujoco](#mujoco)
+
 # Installation of Softwares
 
 ## Anaconda
